@@ -1,0 +1,11 @@
+type Query {
+    hola: String!
+    holaConNombre(nombre: String!): String!
+    holaAlCursoGraphQL: String!
+    # Regresa una suma perrona de dos numeros    
+    sumaPerrona(num1: Int!, num2: Int!): String!
+    # Regresa el producto de una multiplicacion chingona de dos numeros
+    multplicacionChingona(num1: Int!, num2: Int!): String!
+    # Regresa la elevacion de un numero al cuadrado
+    elevacionCuadradaYVerde(num1: Int!): String!
+}
